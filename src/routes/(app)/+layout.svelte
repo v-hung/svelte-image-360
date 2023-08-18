@@ -41,8 +41,8 @@
     <img src="{setting("banner")}" class="w-full h-full object-cover" loading="lazy">
 
     <div class="absolute w-full h-full left-0 top-0 flex flex-col items-center justify-center gap-8">
-      <h3 class="text-3xl md:text-5xl lg:text-7xl font-semibold text-white text-center" style="text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
-      0px -4px 10px rgba(255,255,255,0.3);">Một chạm tới <span class="text-sky-500">Bắc Hà</span></h3>
+      <!-- <h3 class="text-3xl md:text-5xl lg:text-7xl font-semibold text-white text-center" style="text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+      0px -4px 10px rgba(255,255,255,0.3);">Một chạm tới <span class="text-sky-500">Bắc Hà</span></h3> -->
 
       {#if awaitLoad}
         <GradientButton size="lg" on:click={startTour}>Bắt đầu tham quan</GradientButton>
