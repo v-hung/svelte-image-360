@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-[#222];
+  }
+
+  label {
+    @apply block mb-2 text-sm font-medium text-gray-900;
+  }
+
+  input::placeholder {
+    @apply text-sm;
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+  .icon-xl {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 600,
+    'GRAD' 0,
+    'opsz' 48
+  }
+}
+
+@layer components {
+  *.icon {
+    @apply block;
+  }
+
+  *.icon svg {
+    @apply !w-full !h-full !fill-current;
+  }
+}
